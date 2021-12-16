@@ -11,35 +11,56 @@ html {
 }
 
 main {
+    font-family: arial;
     width: 300px;
     margin: 0px auto;
 }
 
-p {
+p {font-size: 110%;
 
 }
 
-a {
+a {font-size: 150%;
+font-weight: normal;
+font-size: 20px;
 
 }
 
 /* Колонки */
 
 .row {
+    display: flex;
+    flex: 50%;
 
 }
 .col {
-
+    margin-right: -30px;
+    margin-bottom: 15px;
 }
 
 
 /* Потом селекторы по классам */
 
 .text-input {
+width: 100%;
+
+    height: 45px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: solid 2px #d2d9d5
 
 }
 
 .button {
+    background-color: #554AF0;
+    width: 50%;
+    margin-top: 25px;
+    height: 45px;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    border: solid 0px white
 
 }
 
@@ -48,6 +69,13 @@ a {
 /* Login*/
 
 .input-login {
+    width: 100%;
+    margin-top: 20px;
+    height: 45px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: solid 2px #d2d9d5
 
 
 }
@@ -56,18 +84,49 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
+    background-color: #CBEDFF;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-weight:bold;
+
 
 }
 
 .genre-second {
+    background-color: #E1F5EA;
+    width: 75%;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-weight:bold;
 
 }
 
 .genre-third {
+    background-color: #FFFACD;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-weight:bold;
 
 }
 
 .genre-fourth {
+
+    background-color: #EBDCF9;
+    text-color: grey;
+    width: 37%;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-weight:bold;
 
 }
 
@@ -77,24 +136,81 @@ a {
 
 /* Страничка популярного */
 
-.cover {
+.cover {width: 70%;
+
+}
+
+.text_single  {
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px
 
 }
 
 /* Страничка подписки  */
 
-.box-green {
-
-}
-
 .box-purple {
 
+    background-color: #EBDCF9;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+
 }
 
-.text-large {
+.box-green {
+    background-color: #E1F5EA;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
 
 }
 
 .button-link {
+    background-color: #554AF0;
+    width: 75%;
+    height: 45px;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    border: solid #554AF0;
 
 }
+
+
+.button_sub {
+    background-color: #554AF0;
+    width: 75%;
+    height: 45px;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    border: solid #554AF0;}
+
+.text-large {
+
+
+}
+
+.button-link {
+    background-color: #554AF0;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    border: solid #554AF0;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+
